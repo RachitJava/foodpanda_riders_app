@@ -16,7 +16,7 @@ class MapUtils
 
     final mapUrl = 'https://www.google.com/maps?$mapOptions';
 
-    if(await canLaunch(mapUrl))
+    if(await launch(mapUrl))
     {
       await launch(mapUrl);
     }
